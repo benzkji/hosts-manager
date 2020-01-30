@@ -36,7 +36,8 @@ sudo hosts enable news  # enable section "news"
 sudo hosts enable dev new social  # enable section dev, news and social
 ```
 
-hosts manager will comment or uncomment the lines in the respective section.
+hosts manager will comment or uncomment the lines in the respective section. It's a good practice to 
+first check results with the `--dry-run` option.
 
 
 ## Section Definition
