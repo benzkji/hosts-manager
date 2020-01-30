@@ -8,10 +8,11 @@ your excellence might find other usages.
 ## Install
 
     pip install hosts-manager
+    # sudo might be needed, when installing globally
 
 ## Usage
 
-Sudo is needed when not a superuser.
+sudo is probably needed when not a superuser.
 
 ```
 sudo hosts disable social  # disable section "social" 
@@ -29,12 +30,17 @@ your hosts file:
 ``` 
 basics, loopback, etc
 .
+register.adobe.com  127.0.0.1
 .
 .
-# start: social
+# start:social
 facebook.com    127.0.0.1
-instagram.com    127.0.0.1
-# end: social  
-# end: would be enough as well! 
+instagram.com   127.0.0.1
+twitter.com     127.0.0.1
+# end  
+# or end:social
+# or endwhatever
+# must start with "# end"
 
 others.com      99.99.99.99
+anothers.com    66.66.66.66
