@@ -12,10 +12,6 @@ your excellence might find other usages.
 
 ## Usage
 
-sudo is probably needed when not a superuser.
-
-### Help
-
 ```
 Usage: hosts [OPTIONS] COMMAND SECTIONS...
 
@@ -31,6 +27,9 @@ Options:
 ```
 
 ### Examples
+
+sudo is probably needed when not a superuser.
+
 ```
 sudo hosts disable social  # disable section "social" 
 sudo hosts enable news  # enable section "news" 
