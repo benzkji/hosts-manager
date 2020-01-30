@@ -15,8 +15,8 @@ your excellence might find other usages.
 ```
 Usage: hosts [OPTIONS] COMMAND SECTIONS...
 
-  enable|disable named sections in your hosts file filename.bak-YYYY-MM-DD
-  is always created
+  enable|disable named sections in your hosts file  
+  filename.bak-YYYY-MM-DD is always created
 
 Options:
   --file FILENAME         if not /etc/hosts
