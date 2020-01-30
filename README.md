@@ -14,6 +14,23 @@ your excellence might find other usages.
 
 sudo is probably needed when not a superuser.
 
+### Help
+
+```
+Usage: hosts [OPTIONS] COMMAND SECTIONS...
+
+  enable|disable named sections in your hosts file filename.bak-YYYY-MM-DD
+  is always created
+
+Options:
+  --file FILENAME         if not /etc/hosts
+  --dry-run               only pretend to
+  -v, --verbose           output resulting file at the end
+  --backup / --no-backup  default: true
+  --help                  Show this message and exit.
+```
+
+### Examples
 ```
 sudo hosts disable social  # disable section "social" 
 sudo hosts enable news  # enable section "news" 
