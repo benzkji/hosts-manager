@@ -17,7 +17,7 @@ sudo is probably needed when not a superuser.
 ```
 sudo hosts disable social  # disable section "social" 
 sudo hosts enable news  # enable section "news" 
-sudo hosts enable dev  # enable section "dev"
+sudo hosts enable dev new social  # enable section dev, news and social
 ```
 
 hosts manager will comment or uncomment the lines in the respective section.
