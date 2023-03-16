@@ -8,7 +8,7 @@ your excellence might find other usages.
 ## Install
 
     pip install hosts-manager
-    # sudo might be needed, when installing globally
+    # or, use --user, or sudo might be needed, when installing globally
 
 ## Usage
 
