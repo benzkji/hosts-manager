@@ -7,7 +7,8 @@ your excellence might find other usages.
 
 ## Install
 
-    pip install hosts-manager
+    pip install hosts-manager  # not yet
+    pip install -e 'https://github.com/benzkji/hosts-manager#egg=hosts-manager'
     # or, use --user, or sudo might be needed, when installing globally
 
 ## Usage
