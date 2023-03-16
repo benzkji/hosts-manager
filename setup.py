@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 
 # hope this works
@@ -7,6 +7,8 @@ setup(
     name='hosts manager',
     version='0.1',
     py_modules=['hosts', ],
+    packages=find_packages(),
+    include_package_data=True,
     install_requires=[
         'click',
     ],
