@@ -3,13 +3,26 @@
 
 easily enable/disable named sections in your hosts file.
 useful for switching from "distraction mode" into "non distraction mode". 
-your excellence might find other usages.
+you might find other usages.
 
 ## Install
 
-    pip install hosts-manager  # not yet
-    pip install -e 'https://github.com/benzkji/hosts-manager#egg=hosts-manager'
+### Using pip
+
+    pip install hosts-manager
     # or, use --user, or sudo might be needed, when installing globally
+
+### Development installation
+
+    pip install -e .
+    # or
+    pip install -e 'https://github.com/benzkji/hosts-manager#egg=hosts-manager'
+
+### Using pipx
+
+    pipx install hosts-manager
+    # or
+    pipx install git+https://github.com/benzkji/hosts-manager.git
 
 ## Usage
 
