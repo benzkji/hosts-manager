@@ -7,17 +7,6 @@ you might find other usages.
 
 ## Install
 
-### Using pip
-
-    pip install hosts-manager
-    # or, use --user, or sudo might be needed, when installing globally
-
-### Development installation
-
-    pip install -e .
-    # or
-    pip install -e 'https://github.com/benzkji/hosts-manager#egg=hosts-manager'
-
 ### Using pipx
 
     pipx install hosts-manager
@@ -42,12 +31,13 @@ Options:
 
 ### Examples
 
-sudo is probably needed when not a superuser.
+sudo is needed when not a superuser. If you don't use `$(which hosts)`, command
+may fail with an importlib.metadata error.
 
 ```
-sudo hosts disable social  # disable section "social" 
-sudo hosts enable news  # enable section "news" 
-sudo hosts enable dev new social  # enable section dev, news and social
+sudo $(which hosts) disable social  # disable section "social", let's get distracted! 
+sudo $(which hosts) enable news  # enable section "news" 
+sudo $(which hosts) enable dev new social  # enable section dev, news and social
 ```
 
 hosts manager will comment or uncomment the lines in the respective section. It's a good practice to 
