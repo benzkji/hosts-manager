@@ -9,9 +9,8 @@ you might find other usages.
 
 ### Using pipx
 
-    pipx install hosts-manager
-    # or
     pipx install git+https://github.com/benzkji/hosts-manager.git
+    # not on pypi
 
 ## Usage
 
